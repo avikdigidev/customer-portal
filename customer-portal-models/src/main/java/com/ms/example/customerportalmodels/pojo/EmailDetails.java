@@ -1,4 +1,4 @@
-package com.ms.example.customeremailservice.pojo;
+package com.ms.example.customerportalmodels.pojo;
 
 import lombok.*;
 
@@ -6,8 +6,6 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-
-
 public class EmailDetails {
     private String recipient;
     private String msgBody;

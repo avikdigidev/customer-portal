@@ -1,6 +1,6 @@
 package com.ms.example.customerdataprocessorservice.service;
 
-import com.example.customerportalmodels.pojo.dto.response.*;
+import com.ms.example.customerportalmodels.pojo.dto.response.*;
 import org.springframework.stereotype.*;
 
 @Service

@@ -1,7 +1,8 @@
-package com.example.customerportalmodels.pojo.dto.response;
+package com.ms.example.customerportalmodels.pojo.dto.response;
 
 import com.example.customerportalmodels.pojo.enums.*;
 import com.fasterxml.jackson.annotation.*;
+import com.ms.example.customerportalmodels.pojo.enums.*;
 import lombok.*;
 
 import java.time.*;

@@ -1,4 +1,4 @@
-package com.example.customerportalmodels.pojo.dto.response;
+package com.ms.example.customerportalmodels.pojo.dto.response;
 
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;

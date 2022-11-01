@@ -1,7 +1,7 @@
 package com.ms.example.customerdataprocessorservice.controller;
 
-import com.example.customerportalmodels.pojo.dto.response.*;
 import com.ms.example.customerdataprocessorservice.service.*;
+import com.ms.example.customerportalmodels.pojo.dto.response.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
 
