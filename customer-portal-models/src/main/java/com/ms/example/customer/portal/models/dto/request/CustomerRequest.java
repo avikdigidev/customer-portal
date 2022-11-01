@@ -1,11 +1,12 @@
 package com.ms.example.customer.portal.models.dto.request;
 
 import com.fasterxml.jackson.annotation.*;
-import lombok.*;
+import com.ms.example.customer.portal.models.dto.response.*;
+import com.ms.example.customer.portal.models.enums.*;
 
 import java.time.*;
-@Getter
-@Setter
+import java.util.*;
+
 public class CustomerRequest {
 
     @JsonProperty("customerId")
@@ -22,6 +23,15 @@ public class CustomerRequest {
 
     @JsonProperty("phoneNumber")
     private Long phoneNumber;
+
+    @JsonProperty("customerStatus")
+    private CustomerStatus customerStatus;
+
+    @JsonProperty("customerCategory")
+    private CustomerCategory customerCategory;
+
+    @JsonProperty("addressDetails")
+    private List<AddressDetailsResponse> addressDetails;
 
     @JsonProperty("creationDate")
     private LocalDate creationDate;
