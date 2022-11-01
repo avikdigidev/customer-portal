@@ -10,13 +10,10 @@ import java.time.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer {
+public class CustomerDT {
 
     private String customerId;
     private String firstName;
-    private String lastName;
-    private String emailId;
-    private Long phoneNumber;
     private LocalDate creationDate;
     private CustomerStatus customerStatus;
     private CustomerCategory customerCategory;
