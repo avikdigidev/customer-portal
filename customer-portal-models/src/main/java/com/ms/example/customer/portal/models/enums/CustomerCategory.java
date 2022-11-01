@@ -1,4 +1,4 @@
-package com.ms.example.customerportalmodels.pojo.enums;
+package com.ms.example.customer.portal.models.enums;
 
 public enum CustomerCategory {
     PREMIUM,

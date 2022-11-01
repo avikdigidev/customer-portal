@@ -1,4 +1,4 @@
-package com.ms.example.customerportalmodels.pojo.dto.response;
+package com.ms.example.customer.portal.models.dto.response;
 
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;
@@ -8,9 +8,6 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AddressDetailsResponse {
-
-
-
 
     @JsonProperty("addressId")
     private String addressId;
@@ -29,7 +26,6 @@ public class AddressDetailsResponse {
 
     @JsonProperty("postalCode")
     private String postalCode;
-
 
 
 }

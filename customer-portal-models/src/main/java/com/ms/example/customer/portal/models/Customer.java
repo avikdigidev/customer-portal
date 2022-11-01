@@ -1,4 +1,4 @@
-package com.ms.example.customerportalmodels.pojo;
+package com.ms.example.customer.portal.models;
 
 import lombok.*;
 
