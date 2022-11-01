@@ -1,0 +1,10 @@
+RuleSet,rules,
+Import,com.ms.example.customer.portal.models.rulesModel.Customer,
+Notes,Decision tables for Customer related calculations,
+,,
+RuleTable CustomerCalculation ,,
+NAME,CONDITION,ACTION
+,customerObject: Customer,
+,firstName==$param,customerObject.setFirstName($param);
+NAME,firstName,Set First Name
+Blank Customer Name,"""""","""FNU"""
