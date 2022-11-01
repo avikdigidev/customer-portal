@@ -1,14 +1,12 @@
 package com.ms.example.customeremailservice.service.impl;
 
 
-import com.example.customerportalmodels.pojo.*;
+import com.ms.example.customer.portal.models.*;
 import com.ms.example.customeremailservice.service.*;
-import com.ms.example.customerportalmodels.pojo.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.mail.*;
+import org.springframework.mail.javamail.*;
+import org.springframework.stereotype.*;
 
 @Service
 public class EmailServiceImpl implements EmailService {
