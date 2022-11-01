@@ -15,7 +15,7 @@ public class DroolConfig {
 
 	private KieFileSystem getKieFileSystem() {
 		KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
-		kieFileSystem.write(ResourceFactory.newClassPathResource("customerRules.csv"));
+		kieFileSystem.write(ResourceFactory.newClassPathResource("customerRules.xls"));
 		return kieFileSystem;
 
 	}
@@ -42,5 +42,7 @@ public class DroolConfig {
 		return getKieContainer().newKieSession();
 
 	}
+
+
 
 }
