@@ -1,9 +1,11 @@
 package com.ms.example.customer.portal.models.dto.request;
 
 import com.fasterxml.jackson.annotation.*;
+import lombok.*;
 
 import java.time.*;
-
+@Getter
+@Setter
 public class CustomerRequest {
 
     @JsonProperty("customerId")
