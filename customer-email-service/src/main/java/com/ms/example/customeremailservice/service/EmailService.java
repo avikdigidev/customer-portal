@@ -1,6 +1,7 @@
 package com.ms.example.customeremailservice.service;
 
-import com.ms.example.customeremailservice.pojo.*;
+
+import com.example.customerportalmodels.pojo.*;
 
 public interface EmailService {
 

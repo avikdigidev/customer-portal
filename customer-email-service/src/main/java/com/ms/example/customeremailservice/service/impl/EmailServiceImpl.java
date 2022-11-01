@@ -1,6 +1,7 @@
 package com.ms.example.customeremailservice.service.impl;
 
-import com.ms.example.customeremailservice.pojo.*;
+
+import com.example.customerportalmodels.pojo.*;
 import com.ms.example.customeremailservice.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
