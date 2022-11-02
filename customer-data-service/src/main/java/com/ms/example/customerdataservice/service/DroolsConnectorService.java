@@ -13,10 +13,9 @@ public class DroolsConnectorService {
     @Autowired
     private KieSession session;
 @PostMapping("/customers")
-    public CustomerDT orderNow(CustomerDT customerDT) {
+    public CustomerDT orderNow(@RequestBody CustomerDT customerDT) {
         session.insert(customerDT);
         session.fireAllRules();
-
         return customerDT;
     }
 }

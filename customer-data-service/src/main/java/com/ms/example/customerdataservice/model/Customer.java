@@ -25,9 +25,9 @@ public class Customer {
     private Long phoneNumber;
     @Column(name = "creation_date")
     private LocalDate creationDate;
-    @OneToMany(mappedBy = "address")
+    @OneToMany(mappedBy = "customer")
     private List<Address> addresses;
-    @OneToMany(mappedBy = "subscription")
+    @OneToMany(mappedBy = "customer")
     private List<Subscription> subscriptions;
 
 
