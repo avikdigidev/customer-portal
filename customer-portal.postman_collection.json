@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "a6b994c3-32b9-43f0-bc90-b343cd7abb5c",
+		"name": "customer-portal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12052215"
+	},
+	"item": [
+		{
+			"name": "customer-email-service",
+			"item": [
+				{
+					"name": "sendEmail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"recipient\" : \"avikdigidev@gmail.com\",\r\n    \"msgBody\" : \"Hello from customer-portal\",\r\n    \"subject\" : \"Test ping\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/sendMail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sendMail"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "customer-data-service",
+			"item": [
+				{
+					"name": "http://localhost:8181/customers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\": \"\",\r\n    \"firstName\": \"\",\r\n    \"creationDate\": \"12-02-2022\",\r\n    \"customerStatus\": \"ACTIVE\",\r\n    \"customerCategory\": \"GOLD\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8181/customers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"customers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
